@@ -1,7 +1,7 @@
 package es.ulpgc.hpds;
 
 public class SouthCarolina extends StateBase {
-    private double SCTAX = 4;
+    private double SCTAX = 4.0;
 
     @Override
     public double CalculateSalesTax(double price) {
